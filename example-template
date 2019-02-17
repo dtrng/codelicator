@@ -1,0 +1,14 @@
+using something.somewhere.someone.that.one;
+
+namespace ${1, this.is.the.namespace}
+{
+  public class ${filename}
+  {
+    public ${2, type} Value = { get; private set; }
+
+    public whatever (${2, type} value) 
+    {
+      Value = value;
+    }
+  }
+}
